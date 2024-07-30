@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3b7ad;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.container .password-container{
+    margin-top: 5rem;
+}
+.password-container h2{
+    color:#93aec1;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: start;
+    margin-left: 1rem;
+}
+.password-container h2::after{
+    content: "";
+    position: absolute;
+    top: 42%;
+    bottom: 0;
+    left: 34%;
+    width: 13rem;
+    height: 2px;
+    border-bottom: #93aec1 3px solid;
+
+}
+.password-container h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container .password-container input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #93aec1;
+    color: white;
+
+}
+.password .input{
+    margin: 4rem 0 1rem 0;
+    width: 25rem;
+    height: 3rem;
+    outline: none;
+    font-weight: bold;
+}
+button{
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #93aec1;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+}
+.btn{
+    width: 14rem;
+    text-align: left;
+    padding-left: 1rem;
+    
+}
+.password .checkbox{
+    margin-bottom:2rem  ;
+}
